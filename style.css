@@ -1,0 +1,358 @@
+
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+.navigation {
+position: relative;
+ background-color: rgb(255, 255, 255); 
+ display:inline-flex;
+ 
+padding: 60px;
+padding-bottom: 3px;
+width: 80%;
+margin-top: -60px;
+color:black;
+}
+ .button1{
+ position:absolute;
+ background-color: black;
+ border-radius: 4px;
+ top: 50%;
+color:white;
+ margin-top: 30px;
+ width: 70px; 
+
+
+
+
+}
+.button2{
+    position:absolute;
+    background-color: white;
+  
+    top: 50%;
+   color:black;
+    margin-top: 30px;
+    width: 70px;
+    right: 20px;
+    border: none;
+   
+   
+   }
+
+
+    
+   
+
+.bb{
+
+display:inline-flex;
+padding: 16px;
+
+
+
+}
+
+.options{
+    
+list-style: none;
+padding: l3cm;
+padding-top: 20px; 
+
+}
+.navig{
+float: left;
+display:flex;
+padding-left: 2cm;
+
+}
+
+ 
+ .login {
+    position:absolute;
+    padding-left: 90%;
+    display:flex;
+    left:200px 
+
+
+}
+.header{
+    display: flex;
+    position: relative;
+    margin-bottom: 100px; 
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    height: 5cm;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    border-radius: 3px;
+    
+
+
+
+
+}
+
+
+.image{
+    position: absolute;
+    display: flex;
+    width: 250px;
+    height: 290px;
+    margin-left: 70% ;
+     margin-bottom: 100px; 
+  
+    
+}
+
+
+a:link {
+    text-decoration: none;
+  }
+
+  .title{
+    position: relative;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(225, 237, 247);
+    padding-left: 1cm;
+    
+  }
+
+.search-bar {
+ display: flex;
+ position: absolute;   
+
+height: 40px;
+border:none;
+border-radius: 7px;
+width: 7cm;
+
+
+
+
+
+}
+
+
+.title-button{
+    
+    display: table-cell;
+    vertical-align: middle;
+    width: 200px;
+    right: -1cm;
+    position: absolute;
+    height: 40px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 54%, rgba(252,176,69,1) 100%);
+    border-radius: 7px;
+ 
+   
+
+}
+
+
+.title input{
+    color:black;
+} 
+
+
+.title ion-icon{
+    position:absolute;
+   color:black;
+   left: 280px;
+   padding: 11px;
+   padding-left: 3px;
+   
+}
+/* hamza fin*/
+.logoCmp{
+
+        width: 100%;
+        padding: 30px 0;
+
+
+    }
+    
+.list-partner{
+    width: 100%;
+}
+
+.list-partner ul{
+    display: flex;
+}
+
+.list-partner ul li{
+    width: 15%;
+    height: 40px;
+    margin: 0 20px;
+}
+.list-partner ul li img{
+    width: 70%;
+    height: 100%;
+}
+.contener{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*youssef aziz part2*/
+
+.cash img {
+    width: 2rem;
+    height: 2rem;
+}
+.vrai {
+    width: 2rem;
+    height: 2rem;
+}
+.line {
+ display: flex;
+ align-items: center;
+}
+.cash{
+    display: flex;
+    align-items: center;
+}
+.line > * {
+    padding: 5px;
+}
+.aziz-youssef {
+    display: flex;
+    justify-content: space-between;
+}
+.aziz-youssef > *{
+    flex-basis: 28%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    font-size: 15px;
+}
+.img8{
+    position: relative;
+    margin-right: 5%;
+}
+.img8 img{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+} 
+.line  h3{
+ margin: 5px;
+}
+.mid > *{
+    justify-content: center;
+    font-size: 75%;
+}
+
+.button{
+    margin-top: 5px;
+  
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.button button{  
+    background-image: linear-gradient(to right, #FA7A33 , #AD369D) ;
+    border-radius:5px 5px ;
+    width: 200px;
+    height: 50PX;
+    color: azure;
+}
+/*fayssel*/
+
+  
+/*nachit*/
+#images1{
+    display: block;
+    flex-direction: column;
+    margin-left: 62px;
+    
+}
+#images2{
+    display: block;
+    flex-direction: column;
+}
+#images3{
+    display: block;
+    margin-right: 210px;
+    flex-direction: column;
+}
+#haha{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 92px;
+}
+#img5{
+    justify-content: end;
+    padding-top: 28px;
+    padding-left: 85px;
+}
+
+#img4{
+    padding-top: 33px;
+}
+
+#img6{
+    padding-top: 28px;
+}
+
+#ddiv{
+    border: solid black 3px;
+    background-color: black;
+    color: white;
+    padding: 70px 60px 70px 70px;
+    flex-direction: row;
+    display: flex;
+}
+
+#par{
+    width: 94%;
+    font-size: 25px;
+    font-family:system-ui;
+    padding-left: 1px;
+}
+
+.col{
+    color: white;
+    font-size: 32px;
+}
+.ze{
+    width:85%;
+    margin-left: 71px;
+    padding-left: 1px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 24px;    
+    font-family:system-ui;
+}
+#past{
+    display: flex;
+    text-align: end;
+}
+#ex{
+    margin-left: 72px;
+    
+}
+#me{
+    margin-left: 72px;
+    width: 322px;
+}
+#pro{
+    margin-left: 72px;
+    width: 322px;
+}
+#com{
+    margin-left: 72px;
+
+}
